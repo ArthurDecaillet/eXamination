@@ -1,0 +1,15 @@
+version: '1'
+
+services:
+  mongodb:
+    image: mongo
+    environment:
+      MONGO_INITDB_ROOT_PASSWORD: password
+      MONGO_INITDB_ROOT_USERNAME: admin
+    ports:
+      - 27017:27017
+    volumes:
+      - dbExamen:/data/db
+
+volumes:
+  dbExamen:
