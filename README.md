@@ -36,6 +36,8 @@ This part represent the student computer that receives an exam and then needs to
 
 Finally, for the Teacher, you need to start the UI file and do what you want, once you create an exam, it is automatically sent to all the students in the network.
 
+For the socket to work, you need to change the IP address of the server and the client as well as to change the range of IP address to reach every device.
+
 ## Important things to know
 
 This project is not by any means secured, this was not the purpose of this, so be careful while using this project.
