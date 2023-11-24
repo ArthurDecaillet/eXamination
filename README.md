@@ -24,6 +24,8 @@ Then you need to create some Collections (Question,Examen,Examen_eleve,Subject) 
 
 You also need to download two libraries for python, pymongo and pyqt5.
 
+The Database need 4 different collections named as so, Question, Examen, Examen_eleve and Subject.
+
 >To download the libraries in a terminal
 
 
